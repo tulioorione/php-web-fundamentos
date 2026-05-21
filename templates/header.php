@@ -1,8 +1,7 @@
 <?php
-include_once("helpers/url.php");
-include_once("data/posts.php");
-include_once("data/categories.php");
+include_once(__DIR__ . "/../helpers/url.php");
 
+$BASE_URL = $BASE_URL ?? "";
 ?>
 <!DOCTYPE html>
 <html lang="pt-bt">
@@ -32,4 +31,3 @@ include_once("data/categories.php");
             </ul>
         </nav>
     </header>
-</body>
