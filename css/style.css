@@ -199,9 +199,6 @@ main {
     color: #000;
 }
 
-
-
-
 /* FOOTER */ 
 footer {
     width: 100%;
@@ -211,4 +208,51 @@ footer {
     background-color: #161616;
     color: #fff;
     padding: 50px 0;
+}
+
+/* MOBILE */
+@media(max-width: 480px) {
+    /* HOME */
+    header {
+        width: 100%;
+    }
+
+    #logo {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        width: 50px;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #title-container {
+        min-width: 100%;
+        margin-top: 20px;
+    }
+
+    #posts-container {
+        margin-top: 20px;
+    }
+
+    .post-box {
+        flex: 100% 1 0;
+        padding: 15px;
+        margin: 0;
+    }
+
+    /* POST */
+    #post-container {
+        grid-template-columns: 100%;
+        padding: 15px;
+        grid-template-areas: "main"
+        "sidebar";
+    }
+
+    .img-container img {
+        width: 100%;
+    }
 }
