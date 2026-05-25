@@ -1,3 +1,6 @@
+<img width="1905" height="946" alt="image" src="https://github.com/user-attachments/assets/606cce23-4446-4bc4-85f1-9925740069f7" />
+
+
 # php-web-fundamentos
 
 Repositório de estudos sobre desenvolvimento web com **PHP puro**, focado em entender como a web funciona por baixo dos panos: protocolo HTTP, requisições, formulários, sessões e renderização de páginas no servidor.
